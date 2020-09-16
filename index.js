@@ -94,9 +94,10 @@ arduinoSerialPort.on("data", (line) => {
 
 //  ===================================================== Twitch Functions =================================================================
 //dq2q28ea9iure3ww2mxbhoaw81qw4m
-const clientId = "6c7e3tyecdkn5d583qvijkxf5jsdp3";
-const clientSecret = "a1t5f03ab3eesfcfivp786963727vg";
-const accessToken = "o8fjptmbeywrp0vhnd15efbjnvczzk";
+const clientId = process.env.clientId;
+const clientSecret = process.env.clientSecret;
+const accessToken = process.env.accessToken;
+
 const twitchClient = TwitchClient.withCredentials(clientId, accessToken, [
   "channel_subscriptions",
 ]);
