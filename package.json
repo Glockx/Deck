@@ -1,0 +1,24 @@
+{
+  "name": "embed-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loudness": "^0.3.0",
+    "obs-websocket-js": "^4.0.1",
+    "open": "^7.0.4",
+    "serialport": "^9.0.0",
+    "system-control": "^0.1.1",
+    "tasktimer": "^3.0.0",
+    "twitch": "^4.0.10"
+  }
+}
